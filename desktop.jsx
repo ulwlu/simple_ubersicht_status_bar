@@ -2,7 +2,7 @@ import Wifi from './components/wifi.jsx';
 import Battery from './components/battery.jsx';
 import { parse } from './helpers.jsx';
 
-export const command = 'sh status_bar/scripts/desktop.sh';
+export const command = 'sh simple_ubersicht_status_bar/scripts/desktop.sh';
 
 export const refreshFrequency = 5000;
 
@@ -13,7 +13,7 @@ export const className = `
 
   .desktop {
     align-items: center;
-    color: #48697e;
+    color: #c0c7ca;
     display: flex;
     font-size: 13px;
     height: 20px;
