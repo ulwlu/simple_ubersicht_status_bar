@@ -16,9 +16,11 @@ const iconPicker = (level, status) => {
 
 const iconColorPicker = level => {
   if (level > 20) {
-    return '#005700';
+    return '#09ff09';
+  } else if (level > 10 && level <= 20) {
+    return '#ffab12';
   } else {
-    return '#4d3200';
+    return 'red';
   }
 };
 
